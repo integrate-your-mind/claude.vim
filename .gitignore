@@ -1,0 +1,33 @@
+# Debug and temporary files
+claude_debug.log
+*.log
+
+# Test files
+test_*.lua
+*_spec.lua
+
+# LazyVim specific files (when used as development environment)
+lazy-lock.json
+lazyvim.json
+
+# Personal configuration files (when used as development environment)
+init.lua
+lua/config/
+lua/plugins/colorscheme.lua
+lua/plugins/completion.lua
+lua/plugins/editor.lua
+lua/plugins/lsp.lua
+
+# Temporary development files
+PLUGIN_WORKING_FINAL.md
+TEST_WORKING_PLUGIN.md
+Makefile
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

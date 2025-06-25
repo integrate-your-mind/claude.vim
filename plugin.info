@@ -1,0 +1,41 @@
+{
+  "name": "claude.vim",
+  "description": "Neovim plugin for Claude Code integration with terminal and floating window modes",
+  "author": "Integrate Your Mind",
+  "license": "MIT",
+  "version": "1.0.0",
+  "homepage": "https://github.com/integrate-your-mind/claude.vim",
+  "repository": "git@github.com:integrate-your-mind/claude.vim.git",
+  "keywords": [
+    "neovim",
+    "nvim",
+    "claude",
+    "ai",
+    "assistant",
+    "terminal",
+    "floating-window",
+    "code-explanation",
+    "file-review"
+  ],
+  "requires": {
+    "neovim": ">=0.8.0",
+    "claude-cli": ">=1.0.0"
+  },
+  "features": [
+    "Direct Claude Code CLI integration",
+    "Interactive terminal mode",
+    "Floating window responses",
+    "Smart singleton window management",
+    "Code explanation for selections",
+    "File review functionality",
+    "Highly configurable interface",
+    "LazyVim compatibility",
+    "Multiple plugin manager support"
+  ],
+  "categories": [
+    "ai",
+    "terminal",
+    "productivity",
+    "code-analysis"
+  ]
+}
